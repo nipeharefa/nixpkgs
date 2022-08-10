@@ -23,6 +23,7 @@
 , tracker-miners
 , gexiv2
 , libselinux
+, libcloudproviders
 , gdk-pixbuf
 , substituteAll
 , gnome-desktop
@@ -78,6 +79,7 @@ stdenv.mkDerivation rec {
     libnotify
     libseccomp
     libselinux
+    libcloudproviders
     shared-mime-info
     tracker
     tracker-miners
