@@ -7,7 +7,7 @@
 , gettext
 , libxml2
 , desktop-file-utils
-, wrapGAppsHook
+, wrapGAppsHook4
 , gtk4
 , libadwaita
 , libportal-gtk4
@@ -62,7 +62,7 @@ stdenv.mkDerivation rec {
     meson
     ninja
     pkg-config
-    wrapGAppsHook
+    wrapGAppsHook4
   ];
 
   buildInputs = [
